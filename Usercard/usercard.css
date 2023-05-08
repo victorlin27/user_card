@@ -1,0 +1,42 @@
+#container{
+    width:600px;
+    height:fit-content;
+    padding: 40px;
+    background: linear-gradient(to bottom, darkturquoise, darkturquoise 25%,transparent 25%,transparent 100%);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-style:solid;
+    border-width:5px;
+    border-color:grey;
+}
+h1{
+    margin:0;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.map-marker{
+    display: flex;
+    width: 120px;
+    margin:0 0;
+    padding:0
+}
+.map-marker #marker{
+    height:20px;
+    width: 10px;
+}
+.map-marker #Seattle{
+    margin:0;
+    padding-left:10px;
+}
+#usercircle{
+    height: 80px;
+    width:80px;
+}
+.profile #gear{
+    height: 20px;
+    width: 20px;
+}
+.description{
+    line-height: 10px;
+}
